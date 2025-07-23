@@ -1,0 +1,251 @@
+*{
+     font-family: "Libertinus Math", system-ui;
+     margin: 0;
+     padding: 0;
+}
+.container{
+     width: 100%;
+     height: 100vh;
+     
+}
+#home{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     
+}
+.links{
+     display: flex;
+     list-style: none;
+     padding: 40px 100px;
+}
+.link{
+     margin-left: 40px;
+     text-decoration: none;
+     display: inline;
+     font-size: 20px;
+     font-weight:900 ;
+     color: black;
+
+}
+#logo{
+     width: 130px;
+     padding-left: 100px;
+}
+.link:hover{
+   color: orange;
+
+}
+#ana{
+     font-size: 40px;
+     margin-bottom: 10px;
+}
+#anap{
+     font-size: 25px;
+     margin-bottom: 30px;
+}
+#anab{
+     background-color: black;
+     color: orange;
+     font-size: 35px;
+     border-radius: 10px;
+     text-decoration: none;
+}
+.title{
+     margin-top: 10%;
+     margin-left: 10%;
+}
+.images{
+     width: 40%;
+     height: 80%;
+     position: absolute;
+     right: 30px;
+     bottom: 0px;
+}
+.imggroup{
+     position: absolute;
+     left: 50%;
+     bottom: 0%;
+     height: 100%;
+     transform: translateX(-50%);
+     transition: bottom 1s,left 2s;
+}
+.images:hover #imgshape{
+     bottom: 70px;
+
+}
+.images:hover #imggirl{
+     left: 40%;
+
+}
+
+/* .aboutme{
+     text-align: center;
+     font-size: 40px;
+     margin-top: 20px;
+}
+span{
+     font-size: 25px;
+     font-weight: 200px;
+     
+
+}
+.lorem{
+     margin-left: 900px;
+     margin-top: -400px;
+     
+}
+.fonts{
+      margin-left: 900px;
+      margin-top: 20px;
+
+}
+#icon3{
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+#icon2{
+     margin-top: 20px;
+} */
+
+#about{
+     margin: 20% 8% 0% 8%;
+}
+.heading{
+     text-align: center;
+}
+.heading span{
+     font-size: 30px;
+     font-weight:800 ;
+     color: orange;
+}
+.aboutcontainer{
+     margin-top: 3%;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     column-gap: 80px;
+}
+#aboutimg{
+     width: 80%;
+}
+.aboutdetails{
+     font-weight: 500;
+     margin-bottom: 20px;
+}
+.information{
+     margin: 40px 10px 0px 30px;
+}
+.infobox{
+     margin-bottom: 20px;
+}
+.infobox span{
+     margin-left: 15px;
+}
+p{
+     margin-bottom: 20px;
+}
+.skillcontainer{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     column-gap: 10px;
+}
+#skills{
+     margin: 3% 8% 0% 8%;
+}
+.barcontainer{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px 0px;
+     position: relative;
+}
+.bar{
+     width: 100%;
+     background-color: black;
+     height: 0.5rem;
+     border-radius: 10px;
+     position: relative;
+     bottom: 0px;
+}
+.htmlbar{
+     width: 95%;
+     background-color: orange;
+     position:absolute;
+     height: 100%;
+}
+.cssbar{
+     width: 89%;
+     background-color: orange;
+      height: 100%;
+}
+.jsbar{
+     width: 85%;
+     background-color: orange;
+      height: 100%;
+}
+.reactbar{
+     width: 91%;
+     background-color: orange;
+      height: 100%;
+}
+#contacts{
+     margin: 5% 8% 0% 8%;
+     padding-bottom: 20px;
+
+}
+.icons{
+     margin-top: 10px;
+     display: flex;
+     justify-content: center;
+
+}
+.icon{
+     width: 50px;
+     height: 50px;
+     font-size: 30px;
+     /* border: 2px solid red; */
+     /* background-color: orange; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50%;
+     margin: 10px 15px;
+
+
+
+    
+}
+.icon i{
+     color: black;
+}
+.icon:hover{
+     background-image: linear-gradient(to top right,rgb(245, 160, 2),rgb(155, 103, 8));
+     animation: shake 2s;
+}
+@keyframes shake{
+     10%{
+          transform: rotate(15deg);
+     }
+      20%{
+          transform: rotate(-15deg);
+     }
+      30%{
+          transform: rotate(15deg);
+     }
+      40%{
+          transform: rotate(-15deg);
+     }
+}
+footer{
+     text-align: center;
+     margin-bottom: 30px;
+}
+html{
+     scroll-behavior: smooth;
+}
+.arrowup{
+     float: right;
+      background-image: linear-gradient(to top right,rgb(245, 160, 2),rgb(155, 103, 8));
+}
+
+
